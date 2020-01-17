@@ -28,6 +28,7 @@ contextStorage: {
 5. you can change the run freqency of the scheduler which is defaulted to 30 sec. By editing the un@ inject node. 
 ![flow](https://raw.githubusercontent.com/industrialinternet/node-red-simple-scheduler-ui-dashboard/master/simple-shed-flow.png)
 
+**scheduler output**
 ```javascript
 msg.payload:  200;      // value set 
 msg.item:     'shd-1';  // schedule item 1
