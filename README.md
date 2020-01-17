@@ -10,7 +10,7 @@ So don't expect it to run bang on 11.21:**00**
 **install** 
 1. Import flow
 2. Context is at flow level and requires persistant storage to be enabled.
-Edit settings.js under contextStorage add file key as below
+Edit **settings.js** under contextStorage add file key as below
 
 ```javascript
 contextStorage: {
