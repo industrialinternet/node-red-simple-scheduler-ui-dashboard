@@ -9,8 +9,7 @@ So don't expect it to run bang on 11.21.
 
 **install** 
 1. Import flow
-2. 
-Context is at flow level and requires persistant storage to be enabled.
+2. Context is at flow level and requires persistant storage to be enabled.
 Edit settings.js under contextStorage add file key as below
 
 ```javascript
@@ -28,3 +27,13 @@ contextStorage: {
 4. click create inject node to create JSON needed for the **scheduler** you can edit this manualy if you like.
 5. you can change the run freqency of the scheduler which is defaulted to 30 sec. By editing the un@ inject node. 
 ![flow](https://raw.githubusercontent.com/industrialinternet/node-red-simple-scheduler-ui-dashboard/master/simple-shed-flow.png)
+
+```javascript
+msg.payload:  200;      // value set 
+msg.item:     'shd-1';  // schedule item 1
+msg.msgType:  'shdEvent';
+```
+
+**Gotchas**
+One NR restart/deploys sometimes schedule item 1 is selected and item details are Not displayed.
+Just click 1 in the select grid and details will appear. 
