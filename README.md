@@ -2,8 +2,8 @@
 
 A very very simple scheduler with 12 schedule items.
 The scheduler will run on the hour and within the minuet sepecifed.
-So if an item start was 11.21 and depending when the NR started the item would run somewhwrw between 11.21:00 to 11.21:59.
-So don't expect it to run bang on 11.21:00  
+So if an item start was 11.21 and depending when the NR started the item would run somewhere between 11.21:**00** to 11.21:**59**
+So don't expect it to run bang on 11.21:**00**  
 
 ![UI](https://github.com/industrialinternet/node-red-simple-scheduler-ui-dashboard/blob/master/shed-ui.png?raw=true)
 
