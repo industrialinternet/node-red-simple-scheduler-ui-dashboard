@@ -34,7 +34,14 @@ msg.payload:  200;      // value set
 msg.item:     'shd-1';  // schedule item 1
 msg.msgType:  'shdEvent';
 ```
+**Reset**
+An item can only be scheduled once a day.
+And end time event can only run if an start event has run.
+If you testing use the rest inject to clear all run events.
 
 **Gotchas**
 On NR restart/deploys sometimes schedule item 1 is selected and item details are Not displayed.
 Just click 1 in the select grid and details will appear. 
+
+**To do's**
+Impliment start and end date settings.
