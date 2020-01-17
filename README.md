@@ -36,5 +36,5 @@ msg.msgType:  'shdEvent';
 ```
 
 **Gotchas**
-One NR restart/deploys sometimes schedule item 1 is selected and item details are Not displayed.
+On NR restart/deploys sometimes schedule item 1 is selected and item details are Not displayed.
 Just click 1 in the select grid and details will appear. 
