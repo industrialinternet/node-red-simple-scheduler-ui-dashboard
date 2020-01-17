@@ -5,8 +5,6 @@ The scheduler will run on the hour and within the minuet sepecifed.
 So if an item start was 11.21 and depending when the NR started the item would run somewhere between 11.21:**00** to 11.21:**59**
 So don't expect it to run bang on 11.21:**00**  
 
-![UI](https://github.com/industrialinternet/node-red-simple-scheduler-ui-dashboard/blob/master/shed-ui.png?raw=true)
-
 **install** 
 1. Import flow
 2. Context is at flow level and requires persistant storage to be enabled.
@@ -45,3 +43,5 @@ Just click 1 in the select grid and details will appear.
 
 **To do's**
 Impliment start and end date settings.
+
+![UI](https://github.com/industrialinternet/node-red-simple-scheduler-ui-dashboard/blob/master/shed-ui.png?raw=true)
